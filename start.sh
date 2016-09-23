@@ -29,17 +29,27 @@
 
 #cd /home/vagrant/sinc/web
 
-#wget https://github.com/drhenner/ror_ecommerce/archive/master.zip
+#git clone https://github.com/piggybak/piggybak.git
 
-#sudo apt-get install unzip
+#rails new webstore
 
-#unzip /home/vagrant/sinc/web/master.zip
+#sudo apt-get install libsqlite3-dev
 
-#cd /home/vagrant/sinc/web/ror_ecommerce-master
+#gem install sqlite3 -v '1.3.11'
+
+#rails new webstore
+
+#cd webstore/
+
+#add 'gem "piggybak"' to Gemfile
 
 #bundle install
 
-#Permission denied (publickey). не может с Гитом подружиться
+#bundle exec piggybak install
+
+#rails s -b 0.0.0.0
+
+#Yay! You’re on Rails!
 
 
 
